@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor FM 87.9</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="icon" href="img/Icono_Radio.ico" type="image/x-icon"/>
+</head>
+<body>
+
+    <section class="reproductor-musica">
+        <h1>Titulo</h1>
+        <p>Nombre</p>
+        <audio id="cancion">
+            <source src="" type="audio/mpeg"/>
+        </audio>
+        <input type="range" value="0" id="progreso"/>
+
+        <div class="tiempo">
+          <span id="tiempoActual">0:00</span>
+          <span id="duracionTotal">0:00</span>
+        </div>
+
+
+        <div class="volumen">
+          <i class="bi bi-volume-down-fill"></i>
+          <input type="range" id="volumen" min="0" max="1" step="0.01" value="0.7">
+          <i class="bi bi-volume-up-fill"></i>
+        </div>
+
+
+
+        <div class="controles">
+            <button class="atras control">
+                <i class="bi bi-rewind-fill"></i>
+            </button>
+            <button class="boton-reproducir-pausar iconoControl">
+               <i class="bi bi-play-fill" id="iconoControl"></i> 
+            </button>
+            <button class="adelante control">
+                <i class="bi bi-fast-forward-fill"></i>
+            </button>
+        </div>
+    </section>
+
+
+<script src="js/app.js"></script>
+</body>
+
+</html>
+
