@@ -21,7 +21,7 @@ body {
     width: 100%;
 
 
-    background: url(/img/Fondo.jpg);
+    background: url(../img/Fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(8px);
@@ -160,3 +160,4 @@ body > * {
     background: var(--blanco);
     box-shadow: 0 4px 8px rgba(228,228,228,0.4);
 }
+
